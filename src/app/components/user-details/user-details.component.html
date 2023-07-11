@@ -1,0 +1,15 @@
+<!-- <p>user id : {{userData.id}}</p>
+<p>First Name : {{userData.firstName}}</p>
+<p>Last Name : {{userData.lastName}}</p>
+<p>Email : {{userData.email}}</p> -->
+<div class="container align-items-center justify-content-center">
+  <div class="card">
+    <img [src]="userData.imageUrl" class="image-thumbnail card-img-top" alt="User Avatar">
+    <div class="card-body">
+      <h5 class="card-title">Name : {{userData.firstName}}  {{userData.lastName}}</h5>
+      <p class="card-text">Email : {{userData.email}}</p>
+      <p class="card-text">ID : {{userData.id}}</p>
+    
+    </div>
+  </div>
+</div>

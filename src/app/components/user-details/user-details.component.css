@@ -1,0 +1,9 @@
+.image-thumbnail{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+div.card{
+    text-align: center;
+    align-items: center;
+}

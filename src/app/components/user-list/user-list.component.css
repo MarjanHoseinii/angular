@@ -1,0 +1,17 @@
+.table-custom {
+    font-size: 16px;
+    background-color: #05283b;
+  }
+  
+  .table-custom thead th {
+    background-color: #9abfec;
+    border-color: gray;
+  }
+  
+  .table-custom tbody tr:hover {
+    background-color: #05283b;
+  }
+  
+  .table-custom td, .table-custom th {
+    border-color: gray;
+  }
